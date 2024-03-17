@@ -1,44 +1,41 @@
 import React, { useState } from "react";
-import './Contact.css'
+import Button from "@mui/material/Button";
 
 export default function Contact() {
-
-  const [cont, setCont] = useState('');
-  const [name, setName] = useState('');
-  const [number, setNumber] = useState('');
-
-  function handleSubmit() {
-    console.log("Name:", name);
-    console.log("Number:", number);
-    setName('');
-    setNumber('');
+  function handleSubmit(e) {
+    alert("Thanks we will contact soon");
   }
 
   return (
-   
-    <div className='contact-container'>
-       <div className="contact" id="contact">
-        <div className="head">
-          <h1> Let's <span>Begin...</span></h1>
-          <h2>Contact <span>Us</span></h2>
-        </div>
-        <div className="contactpage">
-          <div className="contactext">
-            <h1>Let's Go</h1>
-            <h2>Start Your journey with us....</h2>
-          </div>
-          <img
-            src="https://media.licdn.com/dms/image/D5612AQHnSn_khe136w/article-cover_image-shrink_600_2000/0/1693664629905?e=2147483647&v=beta&t=g0fR7GsDAjnijtLRmQL-u8jwtV-cst6CWCMTOGsRvRA"
-            alt="remote image"
+    <div>
+      <h1 className="text-xl font-semibold">Contact Us</h1>
+      <form id="contact" onSubmit={handleSubmit}>
+        <div>
+          <input
+            id="user"
+            name="user"
+            type="text"
+            autocomplete="current-password"
+            required
+            class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2 mt-6"
+            placeholder="Enter Name"
+          />
+          <input
+            id="number"
+            type="number"
+            autocomplete="current-password"
+            required
+            class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2 mt-6 mb-6"
+            placeholder="Enter Mob. No."
           />
         </div>
-        <div className="contactus">
-          <h1 className='cont'>Contact us</h1>
-          <input type="text" placeholder="Enter your Name" id="name"   value={name} onChange={(e) => setName(e.target.value)} /><br/>
-          <input type="text" placeholder="Enter your Number" id="number"  value={number} onChange={(e) => setNumber(e.target.value)}/><br/>
-          <button onClick={handleSubmit}>Submit</button> 
+        <div className="mx-7">
+          <Button variant="contained" size="medium" type="submit" className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
+            Submit
+          </Button>
         </div>
-      </div>
-      </div>
+      </form>
+      
+    </div>
   );
 }

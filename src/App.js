@@ -6,8 +6,8 @@ import SignUp from './Components/Sign/SignUp';
 import Home from './Components/Home/Home';
 import { useState } from 'react';
 import About from './Components/About/About';
+import Blogs from './Components/Blogs/Blogs';
 import Footer from './Components/Footer/Footer';
-import Contact from './Components/Footer/Contact';
 // import Contact from './Components/Footer/Contact';
 
 function App() {
@@ -22,9 +22,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/> 
+        <Route path='/blogs' element={<Blogs/>}/>
         {/* <Route path='/' element={<Team/>}/>*/}
         {/* <Route path='/footer' element={<Footer/>}/>  */}
-        <Route path='/contact' element={<Contact/>}/>
         <Route path='/signin' element={<SignIn handleLogin={handleLogin}/>}/>
         <Route path='/signup' element={<SignUp handleLogin={handleLogin}/>}/>
       </Routes>
