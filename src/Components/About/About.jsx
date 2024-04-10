@@ -6,7 +6,11 @@ export default function About() {
   return (
     <>
       <div>
+
+        {/* <div class="  mt-0 ... flex flex-nowrap my-8 ... ">
+
         <div class="  mt-0 ... flex flex-nowrap my-8 ">
+
           <div className="text-center mt-24 mx-40 ... ">
             <Button variant="outlined" size="large">
               Overview{" "}
@@ -28,8 +32,11 @@ export default function About() {
               Explore More{" "}
             </Button>
           </div>
-        </div>
+
+        </div> */}
+       
         <div className="bg-slate-400 ">
+
           <div className="about">
             <div className="text-3xl text-center pt-10 font-mono ">
               About Us
@@ -59,10 +66,14 @@ export default function About() {
                   possible way.
                 </h2>
                 <div className="para text-center mt-6 ml-24 me-8 font-mono">
+
+                  At FN Mafia Technologies, we specialize in crafting bespoke websites tailored to the unique needs and aspirations of our clients. Our team of skilled web developers possesses the expertise and creativity to transform ideas into stunning digital experiences.  <br /> <br />
+
                   We're passionate about technology and how it can help
                   businesses succeed. Our team of experienced professionals has
                   been providing cutting-edge technology solutions to companies
                   of all sizes for over a decade. <br /> <br />
+
                   We specialize in developing custom software applications,
                   building scalable infrastructure, and providing managed IT
                   services to help our clients stay ahead of the curve. We work
@@ -224,6 +235,171 @@ export default function About() {
                 <Button variant="outlined" href="#outlined-buttons">
                   Read More
                 </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-gray-700 p-20">
+          {/* <div className="flex h-96  ">
+        <div class="flex flex-row justify-between">
+        <div>
+    WHAT WE DO
+    Priority Pixels is a digital marketing agency offering a full range of creative services designed to help our clients stand out from the crowd.
+    Our experienced team will work with you to drive your business forward online by creating dynamic websites that are built to last, clever SEO, PPC advertising campaigns that work and engaging social media.
+    By providing innovative digital experiences for your target audience, improving customer interactions and offering authentic engagement through market-leading campaigns, we can deliver the results your company needs.
+  </div>
+
+            <div class="flex space-x-4 flex flex-nowrap">
+                <div class="border-4 border-indigo-500/100 p-4">hvgmcjgn</div>
+                <div class="border-4 border-indigo-500/100 p-4">gc jhgchjf</div>
+                <div class="border-4 border-indigo-500/100 p-4">gc jhgchjf</div>
+            </div>
+            <div class="flex space-x-4 flex flex-nowrap">
+                <div class="border-4 border-indigo-500/100 p-4">gc jhgchjf</div>
+                <div class="border-4 border-indigo-500/100 p-4">gc jhgchjf</div>
+                <div class="border-4 border-indigo-500/100 p-4">gc jhgchjf</div>
+            </div>
+        </div> */}
+
+          <div class="flex h-100">
+            <div class="flex flex-row justify-between w-full">
+              <div class="w-1/2 pr-4 text-left ... text-slate-50 text-xl ..." >
+                <h1 class='mb-10 font-bold ... text-5xl'>WHAT WE DO </h1>At FN Mafia Technologies, we specialize in crafting bespoke websites tailored to the unique needs and aspirations of our clients. Our team of skilled web developers possesses the expertise and creativity to transform ideas into stunning digital experiences. <div class='mt-10'> Whether you're a small business, a startup, or a large enterprise, we're here to elevate your online presence with cutting-edge design, seamless functionality, and user-friendly interfaces.</div> <div class='mt-10'> 
+                At FN Mafia Technologies, we don't just build websites; we forge digital solutions that resonate with your audience and propel your business forward. Our commitment to excellence, attention to detail, and dedication to customer satisfaction set us apart as a trusted partner in your online journey. Let us bring your vision to life and make your online presence shine.</div>
+              </div>
+              <div class="w-1/2">
+                <div class="grid grid-cols-3 gap-7 mb-10">
+                  <div class="border-2 border-gray-500 ... relative h-full">
+                    <img
+                      src="https://cdn.dribbble.com/users/3191392/screenshots/6702973/dribbble.gif"
+                      alt=""
+                      class="absolute inset-0 w-full h-full object-cover"
+                    />
+                  </div>
+
+                  <div class="border-2 border-gray-500 ... relative h-full w-full">
+                    <img
+                      src="https://www.careerguide.com/career/wp-content/uploads/2021/04/seo-google-rank.gif"
+                      alt=""
+                      class="absolute inset-0 w-full h-full object-cover"
+                    />
+                  </div>
+
+                  <div class="border-2 border-gray-500 ...">
+                    <img
+                      src="https://digitalmarketingrobo.com/wp-content/uploads/2018/03/best-ppc-company-in-lucknow.gif"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="grid grid-cols-3 gap-7  ">
+                  <div class="border-2 border-gray-500 ...  ">
+                    <img
+                      src="https://media0.giphy.com/media/5UtdtSHWnhjfG5Sz8N/giphy.gif?cid=6c09b952f3uylia7yr1u30cep2ftdonmw9bjnrtk7n30tfsh&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g"
+                      alt=""
+                    />
+                  </div>
+                  <div class="border-2 border-gray-500 ... relative">
+                    <img
+                      src="https://www.freecodecamp.org/news/content/images/2022/11/hire-full-stack-developers1546507474317-1.gif"
+                      alt=""
+                      class="absolute inset-0 w-full h-full object-cover"
+                    />
+                  </div>
+                  <div class="border-4  ">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrLB6TSd0FWjRWVOqQweOo0N5N71ENXuXFKA-FBTfDxg&s"
+                      alt=""
+                      height="100%"
+                      width="100%"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 class='mb-10 font-bold ... text-3xl text-center ... mt-10 '>PROUD TO BE WITH </h1>
+       
+
+        <div class="px-64 mb-20 ">
+          <div>
+            <div class="grid grid-cols-6 gap-5 border-6 ">
+              <div class="p-2 border-4 ">
+                <img
+                  src="https://prioritypixels.co.uk/wp-content/uploads/2020/04/nhs.svg"
+                  alt=""
+                  width={300}
+                />
+              </div>
+              <div class="p-2 border-4">
+                <img
+                  src="https://prioritypixels.co.uk/wp-content/uploads/2023/03/v-1.svg"
+                  alt=""
+                />
+              </div>
+              <div class="p-2 border-4">
+                <img
+                  src="https://iconape.com/wp-content/png_logo_vector/acronym-logo.png"
+                  alt=""
+                />
+              </div>
+              <div class="p-2 border-4">
+                <img
+                  src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30162614/1433.png"
+                  alt=""
+                />
+              </div>
+              <div class="p-2 border-4">
+                <img
+                  src="https://bcassetcdn.com/public/blog/wp-content/uploads/2021/10/07203359/australia-tech-map-by-jimjemr-brandcrowd.png"
+                  alt=""
+                />
+              </div>
+              <div class="p-4 border-4">
+                <img
+                  src="https://prioritypixels.co.uk/wp-content/uploads/2020/03/force-logo-1.svg"
+                  alt=""
+                />
+              </div>
+              <div class="p-4 border-4">
+                <img
+                  src="https://prioritypixels.co.uk/wp-content/uploads/2023/05/petroc-logo-midnight.svg"
+                  alt=""
+                />
+              </div>
+              <div class="p-4 border-4">
+                <img
+                  src="https://prioritypixels.co.uk/wp-content/uploads/2024/03/hillingdon-logo.svg"
+                  alt=""
+                />
+              </div>
+              <div class="p-4 border-4">
+                <img
+                  src="https://prioritypixels.co.uk/wp-content/uploads/2024/04/codestone-logo.svg"
+                  alt=""
+                />
+              </div>
+              <div class="p-4 border-4">
+                <img
+                  src="https://prioritypixels.co.uk/wp-content/uploads/2023/03/darnells-logo.svg"
+                  alt=""
+                />
+              </div>
+              <div class="p-4 border-4">
+                <img
+                  src="https://prioritypixels.co.uk/wp-content/uploads/2023/08/majestic-group-logo.png.webp"
+                  alt=""
+                />
+              </div>
+              <div class="p-2 border-4">
+                {" "}
+                <img
+                  src="https://prioritypixels.co.uk/wp-content/uploads/2023/08/somerset-dementia-wellbeing-service-logo.svg"
+                  alt="LittleFish"
+                  class="w-full h-auto"
+                  
+                />
               </div>
             </div>
           </div>
