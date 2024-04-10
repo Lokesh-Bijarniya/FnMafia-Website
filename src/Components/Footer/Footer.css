@@ -1,122 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.conatin {
+  /* background-color: rgb(61, 61, 61); */
+  color: white;
+  width: 100vw;
+  height: 75vh;
+  box-shadow: 0px 0px 10px;
+  /* justify-content: space-between; */
+}
+.footer {
+  padding-top: 20px;
+}
+.footer1 {
+  display: flex;
+  padding-left: 10%;
+  padding-top: 8%;
+  list-style: none;
+  justify-content: center;
+}
+.profile {
+  flex: 25%;
+}
+.logofn {
+  background-image: url("https://media.licdn.com/dms/image/D4D0BAQGLStuisoaB4w/company-logo_200_200/0/1704271735058/fnmafia_technologies_logo?e=1720656000&v=beta&t=48ojfId3qpfF3d350F6V0cphrF02e993L2EScBpl1lY");
+  background-size: cover;
+  height: 20vh;
+  width: 20vw;
+  border-radius: 10vh;
+  border: 2px solid blue;
+  margin-right: 12%;
+  /* padding-left: 12%; */
+}
+.list {
+  margin-top: 25vh;
+  position: relative;
+  right: 20vw;
+  padding-right: 2%;
+  display: flex;
+  border-top: 1px solid #f7f4f4;
+  border-bottom: 1px solid #f7f4f4;
+}
+.list > li {
+  margin-left: 2.5vw;
+  margin-top: 4%;
+}
+.list > li > a {
+  color: blue;
+}
 
+.solut {
+  flex: 25%; /* margin-left: 12px; */
+}
+.solut h3 {
+  margin-top: 12px;
+  font-size: 25px;
+  font-weight: 1000;
+}
+.solut p {
+  margin-top: 7px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.solut p li {
+  margin-top: 3%;
+}
+.indus {
+  flex: 25%;
+}
+.indus h3 {
+  margin-top: 12px;
+  font-size: 25px;
+  font-weight: 1000;
+}
+.indus p {
+  margin-top: 7px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.indus p li {
+  margin-top: 3%;
+}
+.abot {
+  flex: 25%;
+}
+.abot h3 {
+  margin-top: 12px;
+  font-size: 25px;
+  font-weight: 1000;
+}
+.abot p {
+  margin-top: 7px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.abot p li {
+  margin-top: 3%;
+}
+.profile {
+  display: flex;
+}
+.setting {
+  flex: 30%;
+  margin-left: 12px;
+}
+.setting p {
+  margin-top: 12px;
+}
+.setting p,
+span {
+  margin-left: 12px;
+}
+.para {
+  flex: 30%;
+  margin-top: 15px;
+}
 
-
-*{
-    margin: 0;
-    padding: 0;
+.last {
+  text-align: center;
+  margin-top: 10%;
 }
-.conatin{
-    /* background-color: rgb(61, 61, 61); */
-    color: white;
-    width: 100vw;
-    height: 75vh;
-    box-shadow: 0px 0px 10px;
-    /* justify-content: space-between; */
+#session {
+  height: 6rem;
+  width: 3rem;
+  color: #04ccef;
 }
-.footer{
-    padding-top: 20px;  
-}
-.footer1{
-    display: flex;
-    padding-left: 10%;
-    padding-top: 1.5%;
-    list-style: none;
-    justify-content: center;
-}
-.solut{
-    flex: 33%;/* margin-left: 12px; */
-}
-.solut h3{
-    margin-top: 12px;
-    font-size: 25px;
-    font-weight: 1000;
-}
-.solut p{
-    margin-top: 7px;
-    font-size: 20px;
-    cursor: pointer;
-}
-.solut p li{
-    margin-top: 3%;
-}
-.indus{
-    flex: 33%;
-}
-.indus h3{
-    margin-top: 12px;
-    font-size: 25px;
-    font-weight: 1000;
-}
-.indus p{
-    margin-top: 7px;
-    font-size: 20px;
-    cursor: pointer;
-}
-.indus p li{
-    margin-top: 3%;
-}
-.abot{
-    flex: 34%;
-}
-.abot h3{
-    margin-top: 12px;
-    font-size: 25px;
-    font-weight: 1000;
-}
-.abot p{
-    margin-top: 7px;
-    font-size: 20px;
-    cursor: pointer;
-}
-.abot p li{
-    margin-top: 3%;
-}
-.profiles{
-    display: flex;
-    margin-top: 7%;
-    position: relative;
-    left: 1%;
-    right: 0.5%;
-    /* box-shadow: 0px 0px 5px; */
-    width: 97vw;
-    height: 55px;
-    margin-right: 0.5px;
-    margin-left: 0.5px;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
-}
-.setting{
-    flex: 30%;
-    margin-left: 12px;
-}
-.setting p{
-    margin-top: 12px;
-}
-.setting p,span{
-    margin-left: 12px;
-}
-.para{
-    flex: 30%;
-    margin-top: 12px;
-}
-.profile{
-    flex: 30%;
-    margin-top: 12px;
-    margin-left: 24px;
-}
-.profile a{
-    margin-left: 12px;
-}
-.profile a i{
-    height: 40px;
-    width: 34px;
-}
-.last{
-    text-align: center;
-    margin-top: 3%;
-}
-#session{
-    height: 6rem;
-    width: 3rem;
-    color: #04ccef;
-} 
